@@ -4,5 +4,8 @@
 	
 	<TITLE>englishgalaxy.ru - Бесплатный репетитор</title>
 	
-	<H1 class="site-title">Бесплатный репетитор по английскому языку</h1>
+	<DIV class="header">		
+		<DIV class="header-buttons">Регистрация	</div>
+		<DIV class="header-buttons">Вход		</div>
+	</div>	
 </head>

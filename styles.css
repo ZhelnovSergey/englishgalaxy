@@ -1,0 +1,125 @@
+body
+{
+    /* background				: #E7E7E0 url(images/background.png) left top repeat;	*/
+    /*background-image		: url(pics/main_background/london_city.jpg);*/
+    background-position-x	: left;
+    background-position-y	: top;
+    background-size			: initial;
+    background-repeat-x		: repeat;
+    background-repeat-y		: repeat;
+    background-attachment	: initial;
+    background-origin		: initial;
+    background-clip			: initial;
+    /*background-color		: rgb(187, 172, 76, 0.33); */ /* Бежевый */
+	
+	border					: 1px dotted black;
+	
+	margin-left				: 10%;
+	margin-right			: 10%;
+}
+
+DIV.header
+{
+	position				: absolute;
+	top						: 0;	
+	background-color		: rgb(187, 172, 76, 0.33);
+}
+
+h1.site-title
+{
+	border					: 1px dotted black;
+			
+	font-family				: Arial, Helvetica, Sans-serif;
+	font-weight				: bold;
+    font-size				: 40px;
+			
+	margin					: 0;
+    padding					: 0;
+				
+    line-height				: 40px;
+	
+	margin-top				: 1em;
+	margin-bottom			: 4em;
+	
+	text-align				: center;
+}
+
+h2.title
+{
+	/*color					: #78725B;*/
+    margin					: 0 0 10px 0;
+    padding					: 0;
+    font-family				: Georgia, Times New Roman Times, Serif;
+    font-size				: 30px;
+    line-height				: 24px;
+	
+	text-align				: center;
+}
+
+iframe.youtube-video
+{	
+	height					: 315px;
+	width					: 420px;	
+	margin					: 0;
+}
+
+DIV.left-column
+{
+	border					: 1px dotted black;
+	float					: left;
+	width					: 300px; /* Ширина колонки */
+}
+
+DIV.main
+{
+	margin-left				: 300px;			/* Значения отступов */
+    padding					: 15px;				/* Поля вокруг текста */
+    border					: 1px solid #333;	/* Параметры рамки */
+}
+
+DIV.test_block
+{
+	margin-bottom			: 10px;
+	border					: 1px solid #333;
+	border-radius			: 7px;
+	padding					: 5px;
+	width					: 100%;
+}
+
+IMG
+{
+	vertical-align			: bottom;
+}
+
+.border
+{
+	border					: 1px solid #333;
+}
+
+#rounded-courners1
+{
+	border-radius			: 7px;
+	padding					: 5px;
+}
+
+SPAN.TestQuestion
+{
+	padding-left			: 20em;
+}
+
+
+
+tr:nth-child(even)
+{
+    background				: #e5ecf9;
+}
+
+
+
+
+
+
+
+
+
+
